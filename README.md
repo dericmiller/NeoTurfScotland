@@ -34,15 +34,15 @@ In the MAME folder of this repository you'll find IPS patch files for these 6 fi
 Apply the IPS patches using your favorite patcher, https://www.marcrobledo.com/RomPatcher.js/ for example.
 Applying the patches to the relevant files should result in a hacked ROM set with these SHA-1 values:
 ```
-6d680a28e2c1310344754ba53db4c9e9a7e0acea  ./200-c1.c1
-bfd40d4f37d916dcfe58c9963d471932cd5251ae  ./200-c2.c2
-101cd1b705d7611547f461c012fbabed2cbd9037  ./200-m1.m1
-3946266a0b48c82baa5a4cacef469c5f9934bd4a  ./200-p1.p1
+cc886b2e07f2a6118928ecea446f4fb6690a28ce  ./200-c1.c1
+d36926328405447ae8d93b4b4ac84215a1cd145f  ./200-c2.c2
+f8f6082366f5214c140c7435d45e62ea4c0502e5  ./200-m1.m1
+83e0b26688499a8e06b9df868b9a830bd14051e6  ./200-p1.p1
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./200-s1.s1
 ddfee09328632e598fd51537b3ae8593219b2111  ./200-v1.v1
-f0a3e83c300a6b09ac2cd61b6e639c06d1e9bf88  ./200-v2.v2
+db7c504c00503ed715e6c19d432f61d26128eebc  ./200-v2.v2
 e229bc0ea82a371d6ee8fd9fe442b0fd141d0a71  ./200-v3.v3
-bd5a234726a417f70ce3bbee312626c184319b00  ./200-v4.v4
+438068d321c2ddee871f4bbf5aa07041320a05b6  ./200-v4.v4
 ```
 
 
@@ -61,15 +61,24 @@ In the AP folder of this repository you'll find IPS patch files for these 4 file
 Apply the IPS patches using your favorite patcher, https://www.marcrobledo.com/RomPatcher.js/ for example.
 Applying the patches to the relevant files should result in a hacked ROM set with these SHA-1 values:
 ```
-8d173a3f643a9005ad8d032b4e89214c0aea2e60  ./crom0
+959656548263d6ce985c818bd9ba64bef7e7cee6  ./crom0
 17ba0791499db908433b80f37c5fbc89b870084b  ./fpga
-101cd1b705d7611547f461c012fbabed2cbd9037  ./m1rom
-f65c0a683714f96151072903f3daf40dac71a89c  ./prom
+f8f6082366f5214c140c7435d45e62ea4c0502e5  ./m1rom
+5a5f1b280dcce147d54184d1c282cc83633206c7  ./prom
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./srom
-6eb45c10693a026f513a8988b67fe94805327848  ./vroma0
+e8c76ee6a5bb3d4af06fd6c44845c405f2003d50  ./vroma0
 ```
 
 ## Version History
+
+### 1.08 - Scorecard par graphics
+On the scorecard shown after holes 9 & 18, the SCO course was still showing the graphics for the par values of AUS.  Updated.
+
+### 1.07 - Tree collision behavior
+The trees were still behaving like AUS trees, despite looking like SCO trees.  Fixed.
+
+### 1.06 - Replace old AUS nickname on High Score screen
+Each course gets a label on the High Score screen.  Australia used 'SEASIDE'.  Replaced with 'HIGHLAND' for the Scotland course.
 
 ### 1.05 - Opening Cinema glitch tiles 
 A couple of misplaced tiles were appearing in the opening cinema.  Restored to stock.
