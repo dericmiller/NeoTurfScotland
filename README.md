@@ -37,7 +37,7 @@ Applying the patches to the relevant files should result in a hacked ROM set wit
 cc886b2e07f2a6118928ecea446f4fb6690a28ce  ./200-c1.c1
 d36926328405447ae8d93b4b4ac84215a1cd145f  ./200-c2.c2
 f8f6082366f5214c140c7435d45e62ea4c0502e5  ./200-m1.m1
-83e0b26688499a8e06b9df868b9a830bd14051e6  ./200-p1.p1
+faea408fe84d7e2394cb61abca341ea98fe65bdf  ./200-p1.p1
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./200-s1.s1
 ddfee09328632e598fd51537b3ae8593219b2111  ./200-v1.v1
 db7c504c00503ed715e6c19d432f61d26128eebc  ./200-v2.v2
@@ -64,12 +64,15 @@ Applying the patches to the relevant files should result in a hacked ROM set wit
 959656548263d6ce985c818bd9ba64bef7e7cee6  ./crom0
 17ba0791499db908433b80f37c5fbc89b870084b  ./fpga
 f8f6082366f5214c140c7435d45e62ea4c0502e5  ./m1rom
-5a5f1b280dcce147d54184d1c282cc83633206c7  ./prom
+8f1f04ddeb37b0edf800f6f24bf6e2de421a30d4  ./prom
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./srom
 e8c76ee6a5bb3d4af06fd6c44845c405f2003d50  ./vroma0
 ```
 
 ## Version History
+
+### 1.09 - Fix Putt Master clubs
+Putt Master was erroneously using Veteran's clubs.  Restored. 
 
 ### 1.08 - Scorecard par graphics
 On the scorecard shown after holes 9 & 18, the SCO course was still showing the graphics for the par values of AUS.  Updated.
