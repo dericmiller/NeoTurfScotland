@@ -37,7 +37,7 @@ Applying the patches to the relevant files should result in a hacked ROM set wit
 cc886b2e07f2a6118928ecea446f4fb6690a28ce  ./200-c1.c1
 d36926328405447ae8d93b4b4ac84215a1cd145f  ./200-c2.c2
 f8f6082366f5214c140c7435d45e62ea4c0502e5  ./200-m1.m1
-a42f80bbe7f8bfeff65097c24dbb0df6ba71859e  ./200-p1.p1
+5855f6b7d267fa4294824837eb2ad8bc6a31cc2f  ./200-p1.p1
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./200-s1.s1
 ddfee09328632e598fd51537b3ae8593219b2111  ./200-v1.v1
 db7c504c00503ed715e6c19d432f61d26128eebc  ./200-v2.v2
@@ -64,7 +64,7 @@ Applying the patches to the relevant files should result in a hacked ROM set wit
 959656548263d6ce985c818bd9ba64bef7e7cee6  ./crom0
 17ba0791499db908433b80f37c5fbc89b870084b  ./fpga
 f8f6082366f5214c140c7435d45e62ea4c0502e5  ./m1rom
-2400802664a9a3dad5c76e9435e6b026731dec65  ./prom
+731032ff4519a2803cd4de7af07f5a68d957c227  ./prom
 ae1a0b5450869d61b2bb23671c744d3dda8769c4  ./srom
 e8c76ee6a5bb3d4af06fd6c44845c405f2003d50  ./vroma0
 ```
